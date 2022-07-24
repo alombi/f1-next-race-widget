@@ -15,7 +15,7 @@ function formatDate(date){
 	let difference = (d.getTime() - now.getTime()) / (1000 * 3600 * 24)
 	difference = difference.toFixed(0)
 	let dateTXT;
-	if(difference == "0"){
+	if(difference == "-0"){
 		dateTXT = "Race is today!"
 	}else if(difference == "1"){
 		dateTXT = "Race is tomorrow!"
